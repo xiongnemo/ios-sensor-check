@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Sensor Check</string>
+	<key>CFBundleExecutable</key>
+	<string>SensorCheck</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.anzupop.com.ios.sensorcheck</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SensorCheck</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Sensor Check lists the cameras and shows whether it may use them. It takes no picture.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Sensor Check shows the microphone's level. Nothing is kept: the recording is deleted as it goes.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Sensor Check shows the location and the compass's true heading while it is open.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Sensor Check shows whether Bluetooth is there and on. It connects to nothing.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Sensor Check shows the barometer, the steps and the motion activity.</string>
+</dict>
+</plist>
