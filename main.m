@@ -565,7 +565,8 @@ static void *volume_context = &volume_context;
 		[_pad.trailingAnchor constraintEqualToAnchor:_padCell.contentView.layoutMarginsGuide.trailingAnchor],
 		[_pad.topAnchor constraintEqualToAnchor:_padCell.contentView.layoutMarginsGuide.topAnchor],
 		[_pad.bottomAnchor constraintEqualToAnchor:_padCell.contentView.layoutMarginsGuide.bottomAnchor],
-		[_pad.heightAnchor constraintEqualToConstant:150],
+		/* (room for a whole hand: about 40 % of a phone's height) */
+		[_pad.heightAnchor constraintEqualToConstant:340],
 	]];
 }
 
