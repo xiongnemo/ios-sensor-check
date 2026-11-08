@@ -1,5 +1,7 @@
 # Sensor Check
 
+> 已并入 [System Check](https://github.com/xiongnemo/ios-system-check)（它的 Sensors 页），以后在那边更新；这个仓库不再更新。
+
 一个把 iOS 应用能拿到的传感器和硬件输入都放在一屏上的小应用：每一项一行，实时数值（每秒刷新约 10 次），
 以及它在这台设备上的状态——可用（available）、这台设备没有（not available on this device）、没有权限（no permission）、
 等待数据（waiting for data）。每一节下面写着数值来自哪个 API。
